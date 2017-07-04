@@ -13,9 +13,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
 
-    public static Retrofit getRetrofit() {
+    public static Retrofit getRetrofit(String BaseUrl) {
         return new Retrofit.Builder()
-                .baseUrl(AppConstants.BASE_URL)  //Retrofit2 的baseUlr 必须以 /（斜线） 结束，不然会抛出一个IllegalArgumentException
+                .baseUrl(BaseUrl)  //Retrofit2 的baseUlr 必须以 /（斜线） 结束，不然会抛出一个IllegalArgumentException
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }

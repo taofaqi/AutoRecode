@@ -105,7 +105,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class BlkBean {
@@ -115,7 +115,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class VrcBean {
@@ -125,7 +125,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class TfcBean {
@@ -135,7 +135,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class JbcBean {
@@ -145,7 +145,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class LtcBean {
@@ -155,7 +155,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class DogeBean {
@@ -165,7 +165,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class XpmBean {
@@ -175,7 +175,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class PpcBean {
@@ -185,7 +185,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class WdcBean {
@@ -195,7 +195,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class VtcBean {
@@ -205,7 +205,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class MaxBean {
@@ -215,7 +215,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class IfcBean {
@@ -225,7 +225,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class ZccBean {
@@ -235,7 +235,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class ZetBean {
@@ -245,7 +245,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class EacBean {
@@ -255,7 +255,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class FzBean {
@@ -264,8 +264,8 @@ public class TradingHall {
          * yprice : 3
          */
 
-        public int yprice;
-        public List<List<Integer>> data;
+        public double yprice;
+        public List<List<Double>> data;
     }
 
     public static class SktBean {
@@ -275,7 +275,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class PlcBean {
@@ -285,7 +285,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class MtcBean {
@@ -295,7 +295,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class QecBean {
@@ -305,7 +305,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class LkcBean {
@@ -315,7 +315,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class MetBean {
@@ -325,7 +325,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class YtcBean {
@@ -335,7 +335,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class HlbBean {
@@ -345,7 +345,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class GameBean {
@@ -355,7 +355,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class RssBean {
@@ -365,7 +365,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class RioBean {
@@ -375,7 +375,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class KtcBean {
@@ -385,7 +385,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class PgcBean {
@@ -395,7 +395,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class MrycBean {
@@ -405,7 +405,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class EthBean {
@@ -415,7 +415,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class EtcBean {
@@ -425,7 +425,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class DncBean {
@@ -435,7 +435,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class GoocBean {
@@ -445,7 +445,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class XrpBean {
@@ -455,7 +455,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class NxtBean {
@@ -465,7 +465,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class LskBean {
@@ -475,7 +475,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class XasBean {
@@ -485,7 +485,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class PebBean {
@@ -495,7 +495,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class XsgsBean {
@@ -505,7 +505,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class AnsBean {
@@ -515,7 +515,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     public static class BtsBean {
@@ -525,7 +525,7 @@ public class TradingHall {
          */
 
         public double yprice;
-        public List<List<Integer>> data;
+        public List<List<Double>> data;
     }
 
     @Override

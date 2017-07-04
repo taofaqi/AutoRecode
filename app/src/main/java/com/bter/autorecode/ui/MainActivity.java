@@ -7,14 +7,19 @@ import android.view.View;
 
 import com.bter.autorecode.R;
 import com.bter.autorecode.entity.TradingHall;
+import com.bter.autorecode.entity.ZhiHuUser;
 import com.bter.autorecode.presenter.TradingHallPresenter;
+import com.bter.autorecode.presenter.ZhiHuPresenter;
 import com.bter.autorecode.presenter.impl.TradingHallPresenterImpl;
+import com.bter.autorecode.presenter.impl.ZhiHuPresenterImpl;
 import com.bter.autorecode.view.TradingHallView;
+import com.bter.autorecode.view.ZhiHuView;
 
-public class MainActivity extends AppCompatActivity implements TradingHallView {
+public class MainActivity extends AppCompatActivity implements TradingHallView,ZhiHuView {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private TradingHallPresenter tradingHallPresenter;
+    private ZhiHuPresenter zhiHuPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements TradingHallView {
     private void initDatas() {
         tradingHallPresenter = new TradingHallPresenterImpl(this);
         tradingHallPresenter.loadTradingHallDatas(209226202);
+        zhiHuPresenter = new ZhiHuPresenterImpl(this);
+        zhiHuPresenter.loadZhiHuUserDatas("qinchao");
     }
 
     @Override
@@ -41,5 +48,15 @@ public class MainActivity extends AppCompatActivity implements TradingHallView {
     @Override
     public void showErrorMsg(String msg) {
         Log.e("MainActivity", msg);
+    }
+
+    @Override
+    public void loadZhiHuUserSuccess(ZhiHuUser zhiHuUser) {
+        Log.e("MainActivity", zhiHuUser.toString());
+    }
+
+    @Override
+    public void loadZhiHuUserError() {
+
     }
 }
