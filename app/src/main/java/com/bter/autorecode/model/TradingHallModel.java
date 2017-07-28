@@ -2,6 +2,7 @@ package com.bter.autorecode.model;
 
 import com.bter.autorecode.entity.TradingHall;
 
+import io.reactivex.Observer;
 import retrofit2.Callback;
 
 /**
@@ -9,5 +10,6 @@ import retrofit2.Callback;
  */
 
 public interface TradingHallModel {
-    void loadTradingHallDats(int t, Callback<TradingHall> callback);
+    //    void loadTradingHallDats(int t, Callback<TradingHall> callback);
+    void loadTradingHallDats(int t, Observer<TradingHall> observer);
 }

@@ -15,7 +15,14 @@ import com.bter.autorecode.presenter.impl.ZhiHuPresenterImpl;
 import com.bter.autorecode.view.TradingHallView;
 import com.bter.autorecode.view.ZhiHuView;
 
-public class MainActivity extends AppCompatActivity implements TradingHallView,ZhiHuView {
+import org.reactivestreams.Subscriber;
+import org.reactivestreams.Subscription;
+
+import io.reactivex.Observer;
+import io.reactivex.annotations.NonNull;
+import io.reactivex.disposables.Disposable;
+
+public class MainActivity extends AppCompatActivity implements TradingHallView, ZhiHuView {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private TradingHallPresenter tradingHallPresenter;
